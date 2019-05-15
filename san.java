@@ -13,7 +13,7 @@ class ReverseNumberWhile
       //While Loop: Logic to find out the reverse number
       while( num != 0 )
       {
-          reversenum = reversenum * 10;
+          reversenum = reversenum * 30;
           reversenum = reversenum + num%10;
           num = num/10;
       }
